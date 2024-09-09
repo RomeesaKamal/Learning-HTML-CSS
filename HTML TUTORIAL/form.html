@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action="process.php">
+        <label for="username">
+        <input type="text" placeholder="Enter Your Name" id="username" disabled>username
+    </label><br>
+        <input type="password"><br>
+        <input type="number" min="5"><br>
+        <input type="email"><br>
+        <input type="checkbox" checked><br>
+        <fieldset>
+            <legend>Gender</legend>
+        <label for="m1">
+            <input type="radio" value="female" name="gender" id="m1">Male
+        </label>
+        <label for="m2">
+        <input type="radio" value="female" name="gender" id="m2">Female
+    </label>
+</fieldset>
+<br>
+    <textarea  cols="30" rows="20" maxlength="20" required></textarea><br>
+    <select>
+        <option value="class 10">class X</option>
+        <option value="class 11">class XI</option>
+        <option value="class 12">class XII</option>
+    </select><br>
+    <button type="submit">Submit</button>
+
+    
+    </form><br>
+    <form action="process.php">
+        <label for="username">
+            <input type="username" id="username" placeholder="Enter Your Name">
+        </label><br>
+        <label for="useremail">
+            <input type="useremail" id="useremail" placeholder="Enter Your Email">
+        </label><br>
+        <label for="usernumber">
+            <input type="usernumber" id="usernumber" placeholder="Enter Your Number">
+        </label><br>
+        <fieldset>
+            <legend>Gender</legend>
+           <input type="radio" name="gender" value="male" >Male
+            <input type="radio" name="gender" value="female" >Female
+        </fieldset><br>
+        <button type="submit">Submit</button><br>
+        
+
+
+    </form>
+
+</body>
+</html>
